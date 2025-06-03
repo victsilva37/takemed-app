@@ -35,19 +35,24 @@ Cada carpeta principal dentro del proyecto está organizada para que los element
   npm install -g expo-cli
 
 Clonar el repositorio
-```git clone https://github.com/victsilva37/takemed-app```
+    ```bash
+    git clone https://github.com/victsilva37/takemed-app
 
 Dirigirse al directorio **react-native-project** donde encuentra el código base del proyecto
-```cd react-native-project```
+    ```bash
+    cd react-native-project
 
 Instalar dependencias
-* ```npm install```
+    ```bash
+    npm install
 
 Ejecutar Expo y escanear el código QR desde la aplicación [Expo Go](https://expo.dev/client)
-* ```npx expo start```
+    ```bash
+    npx expo start
 
-En caso de que el comando anterior genere error al escanear el código QR, puede ejecutar lo siguiente. Siempre y cuando esté conectado a la misma red Wifi para que detecte la aplicación de Expo Go. 
-* ```npx expo start --tunnel```
+En caso de que el comando anterior genere error al escanear el código QR, puede ejecutar lo siguiente. Siempre y cuando esté conectado a la misma red Wifi, para que detecte la aplicación de Expo Go. 
+    ```bash
+    npx expo start --tunnel
 
 Suele no conectarse la primera vez, por lo que debe ejecutarlo más una vez hasta que aparezca esta respuesta:
 
