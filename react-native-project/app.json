@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native-project",
-    "slug": "takemed-app",
+    "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Menu/images/icon.png",
@@ -42,7 +42,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "ca6f7983-6556-4360-864a-57b13210dbef"
+        "projectId": "b4bb8fef-0a5c-4eb6-a8fd-e6b0a70d8539"
       }
     },
     "owner": "victsilva37"
