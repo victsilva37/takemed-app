@@ -5,10 +5,10 @@ TakeMed es una aplicación móvil simple desarrollada en React Native que ofrece
 
 ### Estructura del Proyecto (Archivos y carpetas clave)
 
-assets/: Contiene recursos estáticos necesarios para la aplicación, como:
+**assets/**: Contiene recursos estáticos necesarios para la aplicación, como:
 
-* fonts/: Fuentes personalizadas para estilos tipográficos.
-* images/: Imágenes utilizadas en el diseño de la app.
+* **fonts/**: Fuentes personalizadas para estilos tipográficos.
+* **images/**: Imágenes utilizadas en el diseño de la app.
 
 **components/**: Almacena los componentes reutilizables de la aplicación que encapsulan funcionalidades específicas para evitar redundancia en el código.
 
@@ -18,16 +18,14 @@ assets/: Contiene recursos estáticos necesarios para la aplicación, como:
 
 **layouts/**: Organiza los diseños y estructuras generales de las pantallas.
 
-Archivos raíz:
-
 * **App.tsx:** Punto de entrada principal de la aplicación.
 * **GlobalStylesApp.tsx:** Define estilos globales aplicados en toda la app.
 * **index.ts:** Archivo principal que conecta la app con el entorno de desarrollo de React Native.
 
 Para mantener un código modular y ordenado, utilizo una convención de nombres específica en los archivos dentro de components, que ayuda a identificar rápidamente el propósito de cada archivo y facilita la mantenibilidad:
-**index_**: Contiene el componente principal que retorna el JSX. Es el archivo donde está el **return** que define la estructura visual y la composición de ese componente
-**styles_**: Define los estilos del componente mediante **StyleSheet.create()**. Centraliza toda la definición visual, permitiendo separar la lógica y el render del estilo
-**func_**: Contiene la lógica relacionada con ese componente. Aquí se colocan funciones auxiliares, manejo de estados, cálculos o cualquier lógica que no sea directamente la UI o el estilo.
+* **index_**: Contiene el componente principal que retorna el JSX. Es el archivo donde está el **return** que define la estructura visual y la composición de ese componente.
+* **styles_**: Define los estilos del componente mediante **StyleSheet.create()**. Centraliza toda la definición visual, permitiendo separar la lógica y el render del estilo.
+* **func_**: Contiene la lógica relacionada con ese componente. Aquí se colocan funciones auxiliares, manejo de estados, cálculos o cualquier lógica que no sea directamente la UI o el estilo.
 
 Cada carpeta principal dentro del proyecto está organizada para que los elementos correspondientes a cada layout o pestaña de la aplicación estén claramente diferenciados. Esto sigue un enfoque modular, donde cada funcionalidad de la app (Inicio, Menú, Información) tiene sus propios submódulos o componentes distribuidos en las carpetas principales.
 
@@ -81,11 +79,13 @@ Cada carpeta principal dentro del proyecto está organizada para que los element
 
 ## DESCARGA DE APK
 
-Puedes escanear el código QR para instalar directamente la APK en el dispositivo móvil
+Puedes descargar la apk mediante este enlace
 
-![QR para descargar APK](https://drive.google.com/file/d/17bINU0ukUlBPR8-zCArP1X1SZfvb42sm/view?usp=sharing)
+* [Descargar APK](https://drive.google.com/file/d/1PyrhDM7ayAQjk72dczBTuSOtWn8s_iao/view?usp=sharing)
 
-Además de un [vídeo demostrativo] de la aplicación.
+Además, puedes ver el funcionamiento de esta app en el siguiente vídeo.
+
+* [Link del vídeo](https://drive.google.com/file/d/1Q3pq6rVmwB4ia9H0cwCv3oSqtEcepgr4/view?usp=sharing)
 
 
 
