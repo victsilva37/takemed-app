@@ -1,4 +1,6 @@
 
+![Logo](assets/Menu/images/icon.png)
+
 # TAKEMED APP
 
 TakeMed es una aplicación móvil simple desarrollada en React Native que ofrece consejos de salud y simula la conexión con un dispositivo BLE. La aplicación utiliza Expo CLI para facilitar el desarrollo y despliegue. El diseño es intuitivo, con una estética moderna y animaciones para mejorar la experiencia del usuario.
@@ -81,7 +83,7 @@ Cada carpeta principal dentro del proyecto está organizada para que los element
 
 Puedes descargar la apk mediante este enlace
 
-* [Descargar APK](https://drive.google.com/file/d/1PyrhDM7ayAQjk72dczBTuSOtWn8s_iao/view?usp=sharing)
+* ![Descargar APK](qr_apk.png)
 
 Además, puedes ver el funcionamiento de esta app en el siguiente vídeo.
 
