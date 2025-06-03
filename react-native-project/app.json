@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native-project",
-    "slug": "react-native-project",
+    "slug": "takemed-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Menu/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/Menu/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.victsilva37.takemedapp"
     },
     "web": {
       "bundler": "metro",

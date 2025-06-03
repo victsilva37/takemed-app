@@ -61,7 +61,7 @@ export default function Menu() {
 
                 headerTitle: () => (
                   <Image
-                    source={require('../../assets/images/splash-icon.png')} // Ruta al logo
+                    source={require('../../assets/Menu/images/splash-icon.png')} // Ruta al logo
                     style={{ width: 120, height: 40, resizeMode: 'contain' }} // Ajusta tamaño del logo
                   />
                 ),
