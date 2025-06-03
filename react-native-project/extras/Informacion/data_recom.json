@@ -1,0 +1,8 @@
+[
+  { "id": 1, "titulo": "Hidratación", "descripcion": "Bebe al menos 8 vasos de agua al día." },
+  { "id": 2, "titulo": "Ejercicio", "descripcion": "Realiza 30 minutos de actividad física diariamente." },
+  { "id": 3, "titulo": "Sueño", "descripcion": "Duerme entre 7 y 8 horas cada noche." },
+  { "id": 4, "titulo": "Alimentación", "descripcion": "Incluye frutas y verduras en cada comida." },
+  { "id": 5, "titulo": "Estrés", "descripcion": "Tómate tiempo para relajarte y desconectar." },
+  { "id": 6, "titulo": "Visitas médicas", "descripcion": "Realiza chequeos regulares con tu médico." }
+]

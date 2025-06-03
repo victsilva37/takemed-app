@@ -1,11 +1,12 @@
+import { NavigationContainer } from "@react-navigation/native";
+import Menu from "./layouts/Menu/index_menu";
 
-import { View, Text } from "react-native"
+export default function App() {
 
-export default function App(){
-    return(
-        <View>
-            <Text>Hola</Text>
-        </View>
-        
-    )
+  return (
+    <NavigationContainer>
+        <Menu/>
+    </NavigationContainer>
+    
+  );
 }
