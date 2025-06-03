@@ -19,7 +19,9 @@ TakeMed es una aplicación móvil simple desarrollada en React Native que ofrece
 **layouts/**: Organiza los diseños y estructuras generales de las pantallas.
 
 **App.tsx:** Punto de entrada principal de la aplicación.
+
 **GlobalStylesApp.tsx:** Define estilos globales aplicados en toda la app.
+
 **index.ts:** Archivo principal que conecta la app con el entorno de desarrollo de React Native.
 
 Para mantener un código modular y ordenado, utilizo una convención de nombres específica en los archivos dentro de components, que ayuda a identificar rápidamente el propósito de cada archivo y facilita la mantenibilidad:
