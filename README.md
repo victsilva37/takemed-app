@@ -65,7 +65,7 @@ Cada carpeta principal dentro del proyecto está organizada para que los element
 
 ## PROCESO DE EXPORTACIÓN
 
-* Creación de un proyecto en la consola oficial de Expo, lo cual te permitirá gestionar tus aplicaciones, realizar builds y distribuirlas.
+* Creación de un proyecto en la consola oficial de Expo, lo cual permite gestionar la aplicación, realizar builds y distribuirlas.
 
 * Inicialización de proyecto
     ```bash
