@@ -12,7 +12,7 @@ TakeMed es una aplicación móvil simple desarrollada en React Native que ofrece
 
 **components/**: Almacena los componentes reutilizables de la aplicación que encapsulan funcionalidades específicas para evitar redundancia en el código.
 
-**extras/**: Incluye archivos adicionales necesarias para la lógica del proyecto (en caso contiene el archivo JSON con la información de las recomendaciones o consejos de salud y simular la extracción de datos).
+**extras/**: Incluye archivos adicionales necesarios para la lógica del proyecto (en este caso contiene el archivo JSON con la información de las recomendaciones o consejos de salud y simular la extracción de datos).
 
 **interfaces/**: Define las interfaces TypeScript utilizadas para garantizar la tipificación fuerte en el proyecto.
 
@@ -24,8 +24,8 @@ TakeMed es una aplicación móvil simple desarrollada en React Native que ofrece
 
 **index.ts:** Archivo principal que conecta la app con el entorno de desarrollo de React Native.
 
-Para mantener un código modular y ordenado, utilizo una convención de nombres específica en los archivos dentro de components, que ayuda a identificar rápidamente el propósito de cada archivo y facilita la mantenibilidad:
-* **index_**: Contiene el componente principal que retorna el JSX. Es el archivo donde está el **return** que define la estructura visual y la composición de ese componente.
+Para mantener un código modular y ordenado, se utiliza una nomenclatura específica en los nombres de los archivos dentro de components, que ayuda a identificar rápidamente el propósito de cada archivo y facilita la mantenibilidad:
+* **index_**: Contiene el componente principal que retorna el TSX. Es el archivo donde está el **return** que define la estructura visual y la composición de ese componente.
 * **styles_**: Define los estilos del componente mediante **StyleSheet.create()**. Centraliza toda la definición visual, permitiendo separar la lógica y el render del estilo.
 * **func_**: Contiene la lógica relacionada con ese componente. Aquí se colocan funciones auxiliares, manejo de estados, cálculos o cualquier lógica que no sea directamente la UI o el estilo.
 
@@ -83,7 +83,7 @@ Cada carpeta principal dentro del proyecto está organizada para que los element
 
 Puedes descargar la apk mediante este enlace
 
-* ![Descargar APK](https://drive.google.com/file/d/1PyrhDM7ayAQjk72dczBTuSOtWn8s_iao/view?usp=sharing)
+* [Descargar APK](https://drive.google.com/file/d/1PyrhDM7ayAQjk72dczBTuSOtWn8s_iao/view?usp=sharing)
 
 Además, puedes ver el funcionamiento de esta app en el siguiente vídeo.
 
